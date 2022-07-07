@@ -8,7 +8,7 @@ function CreateArea(props) {
     title: "",
     content: ""
   });
-
+  
   const [isExpanded, setExpanded] = useState(false);
 
   function handleChange(event) {
